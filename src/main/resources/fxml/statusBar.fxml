@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<HBox fx:id="statusBar" alignment="CENTER_RIGHT" maxHeight="30.0" maxWidth="1.7976931348623157E308" minHeight="30.0" minWidth="-Infinity" prefHeight="30.0" prefWidth="600.0" spacing="20.0" style="-fx-background-color: lightskyblue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.jademy.javafx.demo.controller.StatusBarController" >
+   <children>
+      <ProgressBar fx:id="progressBar" prefWidth="200.0" progress="0.0" visible="false" />
+   </children>
+   <padding>
+      <Insets right="10.0" />
+   </padding>
+</HBox>

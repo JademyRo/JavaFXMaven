@@ -1,4 +1,4 @@
-package ro.jademy.javafx;
+package ro.jademy.javafx.demo;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,9 +10,11 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/fxml/sample.fxml"));
-        primaryStage.setTitle("Hello World");
-        primaryStage.setScene(new Scene(root, 800, 600));
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/main.fxml"));
+        primaryStage.setTitle("JavaFX Demo Application");
+        primaryStage.setScene(new Scene(root, 1024, 640));
+        primaryStage.setMinHeight(600);
+        primaryStage.setMinWidth(800);
         primaryStage.show();
     }
 

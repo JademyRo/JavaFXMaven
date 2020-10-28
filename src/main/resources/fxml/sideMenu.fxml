@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" spacing="20.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.jademy.javafx.demo.controller.SideMenuController">
+   <children>
+      <Button fx:id="dashboard" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Dashboard" />
+      <Button fx:id="users" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Users" />
+   </children>
+   <padding>
+      <Insets top="20.0" />
+   </padding>
+</VBox>
