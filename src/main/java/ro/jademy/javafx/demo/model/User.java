@@ -1,12 +1,20 @@
 package ro.jademy.javafx.demo.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class User {
     private String firstName;
     private String lastName;
     private String email;
-    private List<Role> roles;
+    private List<Role> roles = new ArrayList<>();
+
+    public User(String firstName, String lastName, String email, Role role) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.roles.add(role);
+    }
 
     public User(String firstName, String lastName, String email, List<Role> roles) {
         this.firstName = firstName;
@@ -41,9 +49,5 @@ public class User {
 
     public List<Role> getRoles() {
         return roles;
-    }
-
-    public void setRoles(List<Role> roles) {
-        this.roles = roles;
     }
 }
