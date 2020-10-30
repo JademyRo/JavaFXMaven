@@ -3,7 +3,7 @@ package ro.jademy.javafx.demo.controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.layout.HBox;
-import ro.jademy.javafx.demo.events.TaskEvent;
+import ro.jademy.javafx.demo.event.TaskEvent;
 
 public class StatusBarController {
 

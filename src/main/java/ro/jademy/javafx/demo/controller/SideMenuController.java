@@ -3,7 +3,7 @@ package ro.jademy.javafx.demo.controller;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
-import ro.jademy.javafx.demo.events.ViewChangeEvent;
+import ro.jademy.javafx.demo.event.ViewChangeEvent;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package ro.jademy.javafx.demo.events;
+package ro.jademy.javafx.demo.event;
 
 import javafx.concurrent.Task;
 import javafx.event.Event;

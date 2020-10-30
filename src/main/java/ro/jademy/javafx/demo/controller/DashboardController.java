@@ -4,7 +4,7 @@ import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
-import ro.jademy.javafx.demo.events.TaskEvent;
+import ro.jademy.javafx.demo.event.TaskEvent;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

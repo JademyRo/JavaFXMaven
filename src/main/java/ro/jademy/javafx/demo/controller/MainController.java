@@ -7,8 +7,8 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.VBox;
-import ro.jademy.javafx.demo.events.ViewChangeEvent;
-import ro.jademy.javafx.demo.events.TaskEvent;
+import ro.jademy.javafx.demo.event.ViewChangeEvent;
+import ro.jademy.javafx.demo.event.TaskEvent;
 
 import java.io.IOException;
 

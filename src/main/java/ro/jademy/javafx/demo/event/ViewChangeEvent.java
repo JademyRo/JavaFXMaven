@@ -1,4 +1,4 @@
-package ro.jademy.javafx.demo.events;
+package ro.jademy.javafx.demo.event;
 
 import javafx.event.Event;
 import javafx.event.EventType;
